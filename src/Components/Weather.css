@@ -1,0 +1,59 @@
+.PRESENT-FORECAST {
+  background-color: #ffffff;
+  padding: 50px;
+  border: none;
+  width: 65%;
+  text-align: center;
+}
+.WEATHER-DETAILS {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px;
+  padding: 10px 20px;
+}
+.WEATHER-DETAILS div {
+  margin-bottom: 10px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 998px) {
+  .WEATHER-DETAILS div {
+    margin-bottom: 10px;
+  }
+}
+
+/* Location  */
+.INPUT-FIELD {
+  margin: 0 10px;
+  height: 30px;
+}
+.INPUT-FIELD:focus {
+  outline: none;
+}
+.BTN {
+  height: 35px;
+  cursor: pointer;
+  background: #ff0000;
+  outline: none;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+}
+.CITY-LOCATION {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 25px;
+}
+.CITY-LOCATION span {
+  margin-right: 10px;
+  font-weight: bold;
+  font-size: 23px;
+}
+.CITY-LOCATION p {
+  font-style: italic;
+  letter-spacing: 2px;
+}
