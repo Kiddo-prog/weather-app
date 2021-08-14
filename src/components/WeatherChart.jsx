@@ -6,6 +6,7 @@ export default function WeatherChart() {
   return (
     <div>
       <h2>Chart: </h2>
+      <div className="wth-1"></div>
     </div>
   );
 }

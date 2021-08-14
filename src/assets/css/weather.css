@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: rgba(100, 30, 45, 0.4);
+}
+.weather-background {
+  margin: auto;
+}
+
+/* Location  */
+.text-field {
+  margin: 0 10px;
+  height: 30px;
+}
+.text-field:focus {
+  outline: none;
+}
+.btn {
+  height: 35px;
+  cursor: pointer;
+  background: #ff0000;
+  outline: none;
+  color: #ffffff;
+  border: none;
+  padding: 10px;
+}
+
+/* Location  */
+.location-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+}
+
+/* City */
+.cty-nm {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+/* Forecast */
+.wth-forcs {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
